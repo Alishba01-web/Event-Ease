@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- for styling links -->
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- cdn font awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Select Venue</title>
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="text">
+            🚀 EventEase Admin Portal / Fictional Project | Designed & Developed by Alishba for Internship Showcase.
+        </div>
+        <div class="my-bio">
+            <i class="fa-solid fa-phone icon"></i>
+            <span>+92 238453595 | ✉️ alishbaofficial657@gmail.com</span>
+        </div>
+    </div>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">EventEase <span class="mentioned">Admin Portal</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html " >Home</a></li>
+                <li><a href="Places.html"  class="active">Venue</a></li>
+                <li><a href="Events.html">Event</a></li>
+                <li><a href="Booking.html">Booking</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-times"></i></a>
+            </ul>
+        </nav>
+        <div class="mobile">
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </header>
+    <section class="place-items padd-LRTB ">
+        <div class="container-place">
+            <div>
+                <h4>Venue</h4>
+            </div>
+            <div class="create-box-items">
+                <i class="fa-solid fa-plus plus"></i>
+                <div class="create-btn">Create New</div>
+            </div>
+        </div>
+        <div class="features-box">
+            <div class="container-place-items">
+                <div class="box">
+                    <img src="./img/SKYVIEW-Phuket-Event-03.jpg" alt="">
+                    <h5>Skyview Garden</h5>
+                    <p>Location: <span>Lahore, Pakistan</span> </p>
+                    <p>Capacity: <span>600</span> </p>
+                </div>
+                <div class="place-buttons">
+                    <i class="fa-solid fa-pen"> <button class="click edit">Edit</button></i>
+                    <i class="fa-solid fa-trash"> <button class="click remove">Delete</button></i> 
+                </div>
+            </div>
+            <div class="container-place-items">
+                <div class="box">
+                    <img src="./img/ruffled-outcast-brbz3Ikt5K4-unsplash.jpg" alt="">
+                    <h5>Grand Ballroom</h5>
+                    <p>Location: <span>Karachi, Pakistan</span> </p>
+                  <p> Capacity:<span> 1200</span></p> 
+                </div>
+                <div class="place-buttons">
+                    <i class="fa-solid fa-pen"> <button class="click edit">Edit</button> </i>
+                    <i class="fa-solid fa-trash"> <button class="click remove">Delete</button></i> 
+                </div>
+        </div>
+           <div class="container-place-items">
+            <div class="box">
+                <img src="./img/Hall_ZVvxatSzB1.jpeg" alt="">
+                <h5>Pearl Banquet</h5>
+                <p>Location: <span>Multan, Pakistan</span> </p>
+                <p>Capacity: <span>1000</span> </p>
+            </div>
+            <div class="place-buttons">
+                <i class="fa-solid fa-pen"> <button class="click edit">Edit</button> </i>
+                <i class="fa-solid fa-trash"> <button class="click remove">Delete</button></i> 
+            </div>
+        </div>
+        <div class="container-place-items">
+            <div class="box">
+                <img src="./img/austin-cc-renderinig-2-25.webp" alt="">
+                <h5>Urban Convention Center</h5>
+                <p>Location: <span>Islamabad, Pakistan</span> </p>
+                <p>Capacity: <span>700</span> </p>
+            </div>
+            <div class="place-buttons">
+                <i class="fa-solid fa-pen"> <button class="click edit">Edit</button> </i>
+                <i class="fa-solid fa-trash"> <button class="click remove">Delete</button></i> 
+            </div>
+        </div>
+        <div class="container-place-items">
+            <div class="box">
+                <img src="./img/ohc4_orig.jpg" alt="">
+                <h5>Heritage Courtyard</h5>
+                <p>Location: <span>Faisalabad, Pakistan</span> </p>
+                <p>Capacity: <span>800</span> </p>
+            </div>
+            <div class="place-buttons">
+                <i class="fa-solid fa-pen"> <button class="click edit">Edit</button> </i>
+                <i class="fa-solid fa-trash"> <button class="click remove">Delete</button></i>
+            </div>
+        </div>
+     
+        </div>
+    </section>
+</body>
+<script src="js.js"></script>
+
+</html>

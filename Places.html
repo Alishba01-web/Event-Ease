@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- for styling links -->
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- cdn font awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Venues</title>
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="text">
+            🚀 EventEase Admin Portal / Fictional Project | Designed & Developed by Alishba for Internship Showcase.
+        </div>
+        <div class="my-bio">
+            <i class="fa-solid fa-phone icon"></i>
+            <span>+92 238453595 | ✉️ alishbaofficial657@gmail.com</span>
+        </div>
+    </div>
+     <header>
+        <nav class="nav-bar">
+            <div class="logo">EventEase <span class="mentioned">Admin Portal</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html ">Home</a></li>
+                <li><a href="Places.html"  class="active">Venue</a></li>
+                <li><a href="Events.html">Event</a></li>
+                <li><a href="Booking.html">Booking</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-times"></i></a>
+            </ul>
+        </nav>
+        <div class="mobile">
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </header>
+    <section class="place-items padd-LRTB ">
+        <h2>Create a New Venue</h2>
+        <h4>Venue</h4>
+
+        <form action="" class="place-form">
+            <label for="VenueName">VenueName </label>
+            <input type="text" name="venuename" placeholder="Enter Venue" id="Venue" required>
+            <label for="Location">Location </label>
+            <input type="location" name="Location" placeholder="Enter Location" id="lock" required>
+            <label for="Capacity">Capacity</label>
+            <input type="number" name="Capacity" placeholder="Enter Capacity" id="cap" required>
+            <label class="button" for="venueImage">Venue Image</label>
+            <input  type="file" id="venueImage" accept="image/*" required />
+
+            <button type="submit" class="btn btn-1" onclick="window.location.href='features.html';">Add & Preview</button>
+
+        </form>
+    </section>
+</body>
+<script src="js.js"></script>
+
+</html>

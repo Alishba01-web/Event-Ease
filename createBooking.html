@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- for styling links -->
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- cdn font awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>CreateBooking | Booking</title>
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="text">
+            🚀 EventEase Admin Portal / Fictional Project | Designed & Developed by Alishba for Internship Showcase.
+        </div>
+        <div class="my-bio">
+            <i class="fa-solid fa-phone icon"></i>
+            <span>+92 238453595 | ✉️ alishbaofficial657@gmail.com</span>
+        </div>
+    </div>
+     <header>
+        <nav class="nav-bar">
+            <div class="logo">EventEase <span class="mentioned">Admin Portal</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html " >Home</a></li>
+                <li><a href="Places.html">Venue</a></li>
+                <li><a href="Events.html">Event</a></li>
+                <li><a href="Booking.html"  class="active">Booking</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-times"></i></a>
+            </ul>
+        </nav>
+        <div class="mobile">
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </header>
+    <section class="place padd-LRTB ">
+        <h2>Create a New Booking</h2>
+        <h4>Booking</h4>
+
+        <form action="" class="place-form">
+            <label for="EventId">EventID </label>
+            <input type="number" name="EventId" placeholder="Enter EventID" id="event" required>
+            <br>
+            <label for="ID">VenueId</label>
+            <input type="text" name="ID" placeholder="Enter VenueId" id="vid" required>
+                  <br>
+            <label for="date">EventDate </label>
+            <input type="datetime-local" name="date"  id="dt" required>
+
+            <button type="submit" class="btn btn-1" >Create</button>
+
+        </form>
+    </section>
+</body>
+<script src="js.js"></script>
+
+</html>
